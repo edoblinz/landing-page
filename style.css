@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Roboto;
+}
+
+.container {
+  margin: 0;
+  background-color: #fff;
+  width: 100%;
+}
+.wrapper {
+  padding: 10px 80px;
+}
+
+.header-section {
+  background-color: #1f2937;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation > ul {
+  display: flex;
+  gap: 20px;
+}
+
+ul li {
+  list-style: none;
+  margin: 2rem 0;
+}
+.navbar a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 500;
+}
+
+/* HEADER CONTENT */
+h1 {
+  font-size: 48px;
+}
+P {
+  font-size: 18px;
+}
+
+.header-content {
+  margin: 40px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  flex: 1 1 2;
+  /* border: 2px solid red; */
+}
+.header-text {
+  /* border: 2px solid yellow; */
+  width: fit-content;
+}
+.header-text h1 {
+  color: #f9faf8;
+}
+.header-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 100;
+}
+.sign-up {
+  margin: 0 0 60px 0;
+  padding: 10px 24px;
+  border: none;
+  background: #3882f6;
+  color: #f9faf8;
+  border-radius: 15px;
+  font-size: 1.1rem;
+}
+.header-image {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid yellow; */
+
+  /* width: fit-content; */
+}
+
+/* INFORMATION SECTION */
+
+.information-section {
+  margin: 30px 65px;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  gap: 13px;
+}
+.box {
+  /* width: 12rem; */
+  height: 140px;
+  border: 3px solid #3882f6;
+  border-radius: 13px;
+}
+
+.box-wrapper p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+.box-wrapper h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial-section {
+  background: #e5e7eb;
+  padding: 10px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 95px;
+}
+.testimonial .quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+}
+.testimonial .author {
+  color: #1f2937;
+  align-self: flex-end;
+}
+
+/* ACTION SECTION */
+
+.action-section {
+  padding: 10px;
+}
+.action-wrapper {
+  background-color: #3882f6;
+  margin: 30px 120px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+/* .action-text, .action-button{
+    border: 1px solid #1f2937;
+} */
+.action-text {
+    color: #f9faf8;
+}
+.action-text p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 19px;
+}
+.signup {
+  background: none;
+  border: 1.8px solid #f9faf8;
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-size: 1.1rem;
+}
+
+/* FOOTER SECTION */
+footer {
+    background-color: #1f2937;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+footer p{
+    text-align: center;
+    color: #f9faf8;
+
+}
